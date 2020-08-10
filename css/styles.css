@@ -1,0 +1,161 @@
+body {
+    font-family: sans-serif;
+  }
+  .nav-header {
+      background-color: white;
+      padding-left: 10px;
+      height:50px;
+      border-bottom: 1px solid #dcdcdc;
+  }
+  .header-title > h1{
+      padding: 2rem -60px;
+      margin-top: 20px;
+      font-weight: 20;
+      font-size: 1.5rem;
+      
+  }
+  input {
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1em;
+    border: 1px solid;
+  }
+
+  .btn {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: whitesmoke;
+    padding: 0.5em;
+    font-size: 1em;
+    margin: 0.5em;
+    border-radius:5px;
+    border: 1px solid white;
+    background-color:	#73c0df;
+  }
+
+  .item-image {
+      padding: 25px 0 15px;
+      border-bottom: 1px solid #dcdcdc;
+     
+  }
+  
+  .header {
+      text-align: center;
+      display: inline-flex;
+      padding: 90px 60px;
+
+  }
+  .header  h2 {
+      position: relative;
+       top: 40px;
+       left: 75px;
+       font-weight: 5;
+       font-size: 1.2rem;
+    
+}
+.header > span {
+  font-size: 30px;
+  margin: 70px 0 20rem;
+}
+
+.quantity-tag {
+  margin: 0 8rem;
+}
+.quantity-button {
+  margin: 60px 0 0 -200px;
+}
+ 
+  .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 28rem;
+  }
+  .row  .price {
+    margin: 2rem 0.2rem 5px 0;
+    font-size: 40px;
+    text-align: center;
+  }
+.row .cart-value {
+  text-align: center;
+  padding: 1em;
+  margin: -10px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.row h3 {
+  padding: 1rem;
+  text-align: center;
+  font-weight: 1;
+}
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  input[type=text] {
+    border-radius: 3px;
+    width: 15rem;
+  }
+
+ 
+
+  .btn-2 {
+    background-color:#f3d00c;
+    color: white;
+    padding: 8px 2rem ;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+
+  .new-btn {
+    background-color:#59bbe2;
+    color: white;
+    padding: 8px 6.5rem ;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+
+  #items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #total {
+    border-top: 1px solid #dcdcdc;
+    padding: 0.5em;
+    margin-top: 0.5em;
+  }
+
+  /*@media (max-width: 800px) {
+    .row {
+      flex-direction: row;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  } */

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+    <title>My Cart</title>
+
+ <!-- Bootstrap -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+
+   <!-- fonts-->
+    <link rel="stylesheet" href="css/fonts.css">
+
+   <!-- css styles-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--   js file  -->
+    <script src="js/main.js"></script>
+     <!--   js file  -->
+     <script src="js/script.js"></script>
+
+     <!--  Jquery js file  -->
+     <script src="./js/jquery.3.4.1.js"></script>
+
+      <!--  Bootstrap js file  -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script data-require="jquery@3.1.1" data-semver="3.1.1"
+     src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="nav-header">
+        <div class="header-title"><h1>My Cart ( ) </h1>
+        <button class="btn">Continue Shopping</button>
+        <div class="item-image ">
+            <img src="./image/cart-item2.jpg" alt="item" class="img-fluid">
+        <div class="header">
+            <h2 class="Price-tag">Price</h2>
+            <span>$ 80.00</span>
+            <h2 class="quantity-tag">Quantity</h2>
+            <div class="quantity-button">
+                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" 
+                name="quantity" value="1" title="Qty" class="input-text qty text" size="4" 
+                pattern="" inputmode=""><input type="button" value="+" class="plus">
+            </div>
+
+        </div>
+      </div>  
+    </div>
+</div> 
+     <div class="row col-lg-6 col-md-12 col-sm-12">
+           <div class="col-75">
+            <div class="container">
+
+            <form id="add-form">
+            <div class="row col-lg-6 col-md-12 col-sm-12">
+                <div class="col-50">
+                    <div class="price">$ 80</div>
+                <p class="cart-value">( Current Cart value )</p>
+                  <h3>Customer Details</h3>
+                  <label>
+                Name:
+                <input id="Name" type="text" placeholder="Enter Full Name">
+            </label>
+                <br>
+            <label>
+                Price:
+                <input id="Email" type="text" placeholder="Enter Email">
+            </label>
+                <br>
+            <label>  
+            Delivery Options:
+                <input type = "radio" name = "pick-option" value = "Self Pick-Up"> Self Pick-Up
+                <input type = "radio" name = "pick-option" value = "Delivery" > Delivery
+            </label>
+                <br>
+            <label class="promo-code">
+                Promo Code:
+                <input id="Promo Code" type="text">
+                <input type="submit" value="Apply" class="btn-2">
+            </label>
+                <div class="col-50">
+                <div id="Total">
+                    Total Amount:
+                    <a>$ 80</a>
+                    <!-- Total -->
+                </div>
+                Discount:
+                <a>$ 0</a>
+                <br>
+                Delivery Charge:
+                <a>$ 0</a>
+                <div id="total">
+                Amount Payble:
+                <a>$ 80</a>
+                </div>
+            </div>
+         </div>
+          
+        <input type="submit" value="Checkout" class="new-btn">
+        </div>
+      </div>
+</div>
+</form>
+</body>
+</html>
